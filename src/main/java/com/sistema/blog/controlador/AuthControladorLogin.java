@@ -26,7 +26,7 @@ import com.sistema.blog.seguridad.JwtTokenProvider;
 
 @RestController
 @RequestMapping("/api/auth")
-public class AuthControlador {
+public class AuthControladorLogin {
 
 	@Autowired
 	private AuthenticationManager authenticationManager;
